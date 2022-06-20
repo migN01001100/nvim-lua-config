@@ -5,3 +5,4 @@ require('lualine-config')
 require('treesitter-config')
 require('cmp-config')
 vim.cmd('colorscheme nord')
+
