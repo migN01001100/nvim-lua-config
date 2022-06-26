@@ -3,6 +3,6 @@ require('options')
 require('tree-config')
 require('lualine-config')
 require('treesitter-config')
-require('cmp-config')
+require('autopairs-config')
+require('lsp')
 vim.cmd('colorscheme nord')
-
