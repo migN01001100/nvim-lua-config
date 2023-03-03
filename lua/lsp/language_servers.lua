@@ -3,9 +3,9 @@
     automatic_installation = true
   }
 
-  local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
+  local capabilities = require('cmp_nvim_lsp').default_capabilities(vim.lsp.protocol.make_client_capabilities())
   local langservers = {
-    'sumneko_lua',
+    'lua_ls',
     'rust_analyzer',
     'html',
     'cssls',
